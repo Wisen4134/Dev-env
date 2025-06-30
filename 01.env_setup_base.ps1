@@ -68,6 +68,9 @@ if ($?) {
     Write-Host "❌ 工具安裝失敗" -ForegroundColor Red
 }
 
+# Notepad++ 好用插件
+# Compare、JSTool、XML Tools、JSON Viewer、MarkdownViewer++、DSpellCheck
+
 choco install googlechrome googlechrome.canary firefox safari brave --ignorechecksums -y
 if ($?) {
     Write-Host "✅ 瀏覽器安裝完成" -ForegroundColor Green

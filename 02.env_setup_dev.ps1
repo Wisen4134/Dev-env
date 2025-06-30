@@ -61,14 +61,18 @@ Write-Host "✅ NPM 全域工具安裝完成" -ForegroundColor Green
 Write-Host "`n🧩 安裝 VSCode 套件..." -ForegroundColor Cyan
 code --install-extension ms-vscode.js-debug
 code --install-extension esbenp.prettier-vscode # Prettier 是最常用的程式碼格式化工具
-code --install-extension doggy8088.git-extension-pack # (Will 保哥)Tr.Doggy 打包的 Git 工具組，包含 GitLens、Git History 等 git UI 工具
+code --install-extension doggy8088.git-extension-pack # (Will 保哥)Tr.Doggy 打包的 Git 工具組，包含 Git Lens、Git History、Git Graph 等 git UI 工具
 code --install-extension johnpapa.vscode-peacock # 可改變 VS Code 工作區的顏色，在多專案/多視窗時幫助你區分。
 code --install-extension IBM.output-colorizer # 讓終端機或輸出視窗的文字高亮（彩色 log）。
 code --install-extension MS-CEINTL.vscode-language-pack-zh-hant # 把 VS Code 的介面變成繁體中文。
-code --install-extension mhutchie.git-graph # 可視化 git 分支與 commit 記錄（像樹狀圖）。
 code --install-extension oderwat.indent-rainbow # 縮排階層加上不同顏色，方便看巢狀結構。
 code --install-extension ritwickdey.LiveServer # 在本機啟動一個 HTTP server，HTML 網頁可以即時預覽。
 code --install-extension yzane.markdown-pdf # 將 Markdown 轉成 PDF、HTML、PNG 等格式。
+code --install-extension xshrim.txt-syntax # 打開 .txt、.log、.ini、.out 等純文字檔案時，會自動套用基本的語法高亮。
+code --install-extension streetsidesoftware.code-spell-checker # 語言(英文etc.)拼字錯誤即時標紅、右鍵選擇正確拼法
+code --install-extension Codeium.codeium # AI工具，提供智慧的單字或片語補全、問答，目前個人使用者免費，需連結github帳號，
+
+
 # code --install-extension doggy8088.angular-extension-pack #  (Will 保哥)Tr.Doggy 打包的 Angular 工具組，包含 Angular Essentials，如 Angular Snippets、Angular Language Service 等 
 # code --install-extension nrwl.angular-console # 圖形化執行 Nx 的 Angular 命令
 # code --install-extension ms-azuretools.vscode-bicep # 給寫 Azure 基礎建設（IaC）的人用的語言支援插件。
